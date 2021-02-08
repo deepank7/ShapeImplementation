@@ -2,7 +2,7 @@ package shapeImplementation;
 
 import java.util.Scanner;
 
-public class ShapeHelper extends Shape{
+public class ShapeHelper {
 
 	public static Shape getShape(String shapeType){
 	      if(shapeType == null){
@@ -29,11 +29,5 @@ public class ShapeHelper extends Shape{
 		s.getArea();	
 		s.getPerimeter();
 	}
-
-	@Override
-	public void getArea() {}
-
-	@Override
-	public void getPerimeter() {}
 
 }
